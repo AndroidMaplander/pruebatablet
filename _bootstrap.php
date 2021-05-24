@@ -21,7 +21,7 @@ error_reporting(E_ALL);
 // pull environment vars
 $merchantId = getenv('TESTBIEX');
 $password = getenv('c9f88ef2374fcdbe8752be17ea420b2f');
-$region = getenv("NORTH_AMERICA");
+$region = "NORTH_AMERICA";
 $apiVersion = getenv('59');
 
 // merchant id must be TEST
